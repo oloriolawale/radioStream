@@ -1,0 +1,116 @@
+/* Empty. Add your own CSS if you like */
+.radio-page .item h2, .radio-page .item p {
+    text-align: center !important;
+}
+
+.radio-page .item p {
+    color: #fff;
+}
+
+.has-header {
+    top: 44px !important;
+}
+
+.radio-page  .logo_title img{
+    width: 80%;
+    margin: auto;
+}
+
+.radio-page  .logo_title{
+    text-align: center;
+}
+
+.radio-page  .card, .radio-page  .item {
+    background: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none;
+}
+
+.pane {
+    background: url("../img/bg1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tabs-dark > .tabs{
+    border-color: #000;
+    background-color: #000;
+    background-image: linear-gradient(0deg, #000, #111 50%, transparent 50%);
+    color: #fff;
+}
+
+.bar.bar-dark {
+    border-color: transparent;
+    border: none;
+    background-color: transparent;
+    background-image: linear-gradient(0deg, rgba(236, 228, 133, 0), rgba(216, 169, 10, 0.61) , rgb(212, 182, 75) ) !important;
+    color: #000000 !important;
+}
+
+.bar.bar-dark .title, .bar.bar-dark .title {
+    color: #000;
+    text-align: center !important;
+}
+
+.tabs-top > .tabs, .tabs.tabs-top {
+    bottom: 0px;
+    top: initial;
+    padding-top: 0;
+    background-position: bottom;
+    border-top-width: 0;
+    border-bottom-width: 1px;
+}
+
+.tabs-striped.tabs-dark .tabs {
+    background-color: #000000;
+}
+
+
+.button.button-positive {
+    border-color: transparent;
+    background-color: #a90404;
+    color: #fff;
+}
+
+.button.button-positive.active, .button.button-positive.activated {
+    background-color: #920000;
+}
+
+.button.button-calm, .button-calm  {
+    background-color: #363738;
+}
+
+.button.button-calm.active, .button.button-calm.activated {
+    background-color: #717171;
+}
+
+.bar.bar-positive {
+    border-color: #bd2130;
+    background-color: #bd2130;
+    background-image: linear-gradient(0deg, #bd2130, #b90447 50%, transparent 50%);
+    color: #fff;
+}
+
+.button.button-positive.button-clear {
+    color: #8c8c8c;
+}
+
+.walkthrough-slider {
+    height: 100%;
+    background: url("../img/bg.jpg") no-repeat center center fixed; 
+}
+
+.button.button-balanced.active, .button.button-balanced.activated {
+    background-color: #f3e433;
+}
+
+.button.button-balanced:hover {
+    color: #210000;
+}
+
+.button.button-balanced {
+    background-color: #ffdc2f;
+    color: #0e0e0e;
+}

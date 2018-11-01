@@ -1,0 +1,29 @@
+<ion-view title="" >
+
+	<ion-content class="radio-page" scroll="false">  
+
+		<div class="list card">
+
+			<div class="item" align= center>
+				
+				<!--<img src="img/logonew.png">-->
+				<!--<div class="logo_title"><img ng-src="img/logonew.png" src="img/logonew.png"></div>-->
+				{{ radioOptions.song }}
+				
+			</div>
+
+			<div class="item item-image">
+				<img ng-src="{{ radioOptions.albumArt }}"> <p>{{ radioCurrentTime | SecondsToTimeString }}</p>
+				<a class="button button-icon icon radio-button" ng-class="{'ion-ios-play': !isPlaying, 'ion-ios-pause': isPlaying}" ng-click="startRadio()"></a>
+				 
+			</div>
+<!--
+			<div class="item">
+				<p>{{ radioCurrentTime | SecondsToTimeString }}</p> 
+			</div>
+-->
+		</div>
+
+	</ion-content>
+
+</ion-view>

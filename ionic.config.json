@@ -1,0 +1,21 @@
+{
+  "name": "radio",
+  "integrations": {},
+  "gulpStartupTasks": [
+    "sass",
+    "parsejs",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "browsers": [
+    {
+      "platform": "android",
+      "browser": "crosswalk",
+      "version": "12.41.296.5"
+    }
+  ],
+  "pro_id": "faf0645b"
+}
